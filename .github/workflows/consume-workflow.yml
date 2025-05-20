@@ -1,6 +1,6 @@
-name: Conume workflow
-on: 
+name: Consume workflow
+on:
   workflow_dispatch:
 jobs:
   consume_workflow:
-    - uses: tenoSTM/github-actions-training/.github/workflows/matrix.yml@main
+    uses: tenoSTM/github-actions-training/.github/workflows/matrix.yml@main
